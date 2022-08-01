@@ -1,10 +1,6 @@
-#include <stdio.h>
-/**
- *  main - check the code for Holberton School students.
- *  Return: Always 0
- */
-int main(void)
-{
-	printf("%s\n", __FILE__);
-	return (0);
-}
+#ifndef FILE_ABS
+#define FILE_ABS
+
+#define ABS(X) ((X) < 0 ? -1 * (X) : (X))
+
+#endif
